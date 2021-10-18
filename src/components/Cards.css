@@ -1,0 +1,24 @@
+.justifyone{
+margin-top: 10%;
+align-items: center;
+  justify-content: space-around ;
+  
+ 
+}
+
+
+Button{
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  color: #ffffff !important;
+}
+@media screen and (max-width:500px){
+  .justifyone{
+    margin-top: 80% !important;
+  }
+}

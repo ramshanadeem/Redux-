@@ -1,0 +1,10 @@
+.cards{
+    width:80%!important;
+   flex-direction: row !important;
+}
+@media screen and (max-width:800px){
+    .cards{
+      width: 50%;
+      margin-left: 20%;
+    }
+  }
